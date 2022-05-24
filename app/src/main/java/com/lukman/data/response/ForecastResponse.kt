@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 data class ForecastResponse(
 
 	@field:SerializedName("list")
-	val list: List<ListItem?>? = null
+	val list: List<ListItem>? = null
 )
 
 data class ListItem(
